@@ -1,0 +1,22 @@
+{
+  "name": "test-app",
+  "version": "1.0.0",
+  "description": "Testing App",
+  "main": "app.js",
+  "scripts": {
+    "test": "electron ."
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/Jordanu107/Test-App.git"
+  },
+  "author": "jordanung",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/Jordanu107/Test-App/issues"
+  },
+  "homepage": "https://github.com/Jordanu107/Test-App#readme",
+  "devDependencies": {
+    "electron": "5.0.7"
+  }
+}
