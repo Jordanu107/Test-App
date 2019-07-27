@@ -12,6 +12,10 @@ notifyBtn.addEventListener('click', function(event) {
         alwaysOnTop: true,
         width: 400,
         height: 200,
+        // This line below is SO IMPORTANT
+        webPreferences: {
+            nodeIntegration: true
+        }
     });
     win.loadURL(modalPath);
     win.on('close', function() {
